@@ -1,0 +1,45 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 32px;
+}
+
+#profile {
+    display: flex;
+    gap: 32px;
+}
+
+#profile img {
+    width: 176px;
+    height: 176px;
+    object-fit: cover;
+}
+
+#profile p {
+    font: var(--text-md);
+}
+
+.frame {
+    max-width: 384px;
+}
+
+.info {
+    width: 280px;
+}
+
+.info span {
+    font: var(--text-md);
+}
+
+.info ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style: none;
+}
+.info ul li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
